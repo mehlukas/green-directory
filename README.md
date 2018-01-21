@@ -22,6 +22,21 @@ So far, only example records can be found here.
 
 Expect the schema to change any time.
 
+## Help Wanted
+
+This project needs help with:
+
+- Feedback regarding the initial proposed schema (please check the pull requests)
+
+- Structured data imports: As soon as a schema is defined initially,
+  we need help with importing data. Pull requests welcome!
+
+Please also look at the [issues](https://github.com/netzbegruenung/green-directory/issues)
+for anything tagged with `help wanted`.
+
+When in doubt, please file an issue to ask a question or report
+a feature wish.
+
 ## Data Structure
 
 - YAML is used as a source format.
@@ -32,6 +47,8 @@ Expect the schema to change any time.
   but which should not be read in a semantical fashion. The folder hierarchy
   can vary from country to country and from locality to locality.
   Likewise, data file names have no meaning.
+
+- YAML files have the ending `.yaml`.
 
 - All data files are lists of entries (starting with a `---` line).
 
